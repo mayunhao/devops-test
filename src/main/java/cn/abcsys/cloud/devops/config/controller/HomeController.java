@@ -14,7 +14,7 @@ public class HomeController {
     @RequestMapping("/hello")
     public String hello() {
 //        return "2018-12-28 Welcome to Demo App version " + System.getenv("APP_VERSION") + " !";
-    	File file = new File("D:\\demo.json");
+    	File file = new File("/tmp/demo.json");
     	BufferedReader reader = null;  
     	StringBuffer buffer = new StringBuffer();
         try {  
